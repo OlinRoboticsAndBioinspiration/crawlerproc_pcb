@@ -5663,7 +5663,7 @@ Source: www.kingbright.com</description>
 <classes>
 <class number="0" name="default" width="0" drill="0">
 </class>
-<class number="1" name="sup" width="0.254" drill="0">
+<class number="1" name="sup" width="0.127" drill="0">
 </class>
 </classes>
 <parts>
@@ -6692,6 +6692,11 @@ Source: www.kingbright.com</description>
 <label x="45.72" y="203.2" size="1.778" layer="95" rot="R90"/>
 <pinref part="U8" gate="G$1" pin="SCL"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="1"/>
+<wire x1="127" y1="187.96" x2="121.92" y2="187.96" width="0.1524" layer="91"/>
+<label x="116.84" y="187.96" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="SDA1" class="0">
 <segment>
@@ -6821,17 +6826,28 @@ Source: www.kingbright.com</description>
 <label x="251.46" y="156.718" size="1.778" layer="95" rot="R180"/>
 <pinref part="U4" gate="G$1" pin="MISO"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="3"/>
+<wire x1="127" y1="185.42" x2="121.92" y2="185.42" width="0.1524" layer="91"/>
+<label x="116.84" y="185.42" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="SDO1" class="0">
 <segment>
 <wire x1="157.48" y1="66.04" x2="154.94" y2="66.04" width="0.1524" layer="91"/>
 <label x="157.48" y="66.04" size="1.778" layer="95"/>
 <pinref part="PROC" gate="G$1" pin="SDO1/U1TX/RF3"/>
+<wire x1="157.48" y1="66.04" x2="154.94" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="243.84" y1="160.02" x2="246.38" y2="160.02" width="0.1524" layer="91"/>
 <label x="252.476" y="161.798" size="1.778" layer="95" rot="R180"/>
 <pinref part="U4" gate="G$1" pin="MOSI"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="11"/>
+<wire x1="127" y1="175.26" x2="121.92" y2="175.26" width="0.1524" layer="91"/>
+<label x="116.84" y="175.26" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="OSC1" class="0">
@@ -7060,6 +7076,11 @@ Source: www.kingbright.com</description>
 <label x="218.44" y="127" size="1.778" layer="95" rot="R90"/>
 <pinref part="U4" gate="G$1" pin="SLP_TR"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="9"/>
+<wire x1="127" y1="177.8" x2="121.92" y2="177.8" width="0.1524" layer="91"/>
+<label x="116.84" y="177.8" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="N$6" class="0">
 <segment>
@@ -7100,11 +7121,6 @@ Source: www.kingbright.com</description>
 <wire x1="96.52" y1="124.46" x2="96.52" y2="127" width="0.1524" layer="91"/>
 <label x="96.52" y="127" size="1.778" layer="95" rot="R90"/>
 <pinref part="PROC" gate="G$1" pin="PWM2H/RE3"/>
-</segment>
-<segment>
-<wire x1="127" y1="185.42" x2="121.92" y2="185.42" width="0.2032" layer="91"/>
-<label x="116.84" y="185.42" size="1.778" layer="95"/>
-<pinref part="U$1" gate="G$1" pin="3"/>
 </segment>
 </net>
 <net name="PWM1H" class="0">
@@ -7288,11 +7304,6 @@ Source: www.kingbright.com</description>
 <wire x1="99.06" y1="124.46" x2="99.06" y2="127" width="0.1524" layer="91"/>
 <label x="99.06" y="127" size="1.778" layer="95" rot="R90"/>
 <pinref part="PROC" gate="G$1" pin="PWM2L/RE2"/>
-</segment>
-<segment>
-<wire x1="127" y1="187.96" x2="121.92" y2="187.96" width="0.2032" layer="91"/>
-<label x="116.84" y="187.96" size="1.778" layer="95"/>
-<pinref part="U$1" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="PWM4L" class="0">
