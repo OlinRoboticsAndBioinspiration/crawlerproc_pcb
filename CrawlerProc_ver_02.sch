@@ -7275,6 +7275,7 @@ Source: www.kingbright.com</description>
 <wire x1="48.26" y1="96.52" x2="68.58" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="U5" gate="G$1" pin="SCK"/>
 <pinref part="PROC" gate="G$1" pin="SCK2/CN8/RG6"/>
+<label x="60.96" y="96.52" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PWM4L" class="0">
@@ -7323,19 +7324,20 @@ Source: www.kingbright.com</description>
 <net name="SDI2" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="9"/>
-<wire x1="127" y1="177.8" x2="121.92" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="127" y1="177.8" x2="121.92" y2="177.8" width="0.2032" layer="91"/>
 <label x="116.84" y="177.8" size="1.778" layer="95"/>
 </segment>
 <segment>
 <wire x1="68.58" y1="93.98" x2="40.64" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="U5" gate="G$1" pin="SO"/>
 <pinref part="PROC" gate="G$1" pin="SDI2/CN9/RG7"/>
+<label x="60.96" y="93.98" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SDO2" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="11"/>
-<wire x1="127" y1="175.26" x2="121.92" y2="175.26" width="0.1524" layer="91"/>
+<wire x1="127" y1="175.26" x2="121.92" y2="175.26" width="0.2032" layer="91"/>
 <label x="116.84" y="175.26" size="1.778" layer="95"/>
 <label x="116.84" y="175.26" size="1.778" layer="95"/>
 </segment>
