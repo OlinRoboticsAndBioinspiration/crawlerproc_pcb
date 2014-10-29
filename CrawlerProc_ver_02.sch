@@ -7348,6 +7348,7 @@ Source: www.kingbright.com</description>
 <wire x1="45.72" y1="91.44" x2="68.58" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="U5" gate="G$1" pin="SI"/>
 <pinref part="PROC" gate="G$1" pin="SDO2/CN10/RG8"/>
+<label x="60.96" y="91.44" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
