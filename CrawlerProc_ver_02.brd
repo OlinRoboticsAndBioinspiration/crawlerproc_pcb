@@ -3072,7 +3072,6 @@ design rules under a new name.</description>
 <wire x1="28.4456" y1="11.0944" x2="29.386109375" y2="11.0944" width="0.127" layer="1"/>
 </signal>
 <signal name="SCK2">
-<contactref element="PROC" pad="62"/>
 <contactref element="U$1" pad="1"/>
 <contactref element="U5" pad="2"/>
 <contactref element="PROC" pad="4"/>
@@ -3086,9 +3085,6 @@ design rules under a new name.</description>
 <wire x1="29.398340625" y1="11.244940625" x2="28.27601875" y2="10.12261875" width="0.127" layer="16"/>
 <wire x1="28.27601875" y1="10.12261875" x2="26.63566875" y2="10.12261875" width="0.127" layer="16"/>
 <wire x1="26.63566875" y1="10.12261875" x2="26.51868125" y2="10.239609375" width="0.127" layer="16"/>
-<wire x1="29.386109375" y1="12.0944" x2="29.83943125" y2="12.54771875" width="0.127" layer="1"/>
-<wire x1="29.83943125" y1="12.54771875" x2="29.83943125" y2="14.804309375" width="0.127" layer="1"/>
-<wire x1="29.83943125" y1="14.804309375" x2="30.00483125" y2="14.969709375" width="0.127" layer="1"/>
 <wire x1="28.184" y1="14.4456" x2="29.34815" y2="14.4456" width="0.127" layer="16"/>
 <wire x1="29.34815" y1="14.4456" x2="29.398340625" y2="14.395409375" width="0.127" layer="16"/>
 <wire x1="29.398340625" y1="14.395409375" x2="29.972640625" y2="14.969709375" width="0.127" layer="16"/>
@@ -3096,7 +3092,6 @@ design rules under a new name.</description>
 <via x="26.51868125" y="10.239609375" extent="1-16" drill="0.254" diameter="0.6604"/>
 <via x="30.00483125" y="14.969709375" extent="1-16" drill="0.254" diameter="0.6604"/>
 <wire x1="28.984" y1="22.009" x2="28.984" y2="20.598490625" width="0.127" layer="1"/>
-<wire x1="28.4456" y1="12.0944" x2="29.386109375" y2="12.0944" width="0.127" layer="1"/>
 </signal>
 <signal name="PWM4L">
 <contactref element="PROC" pad="2"/>
@@ -3180,6 +3175,9 @@ design rules under a new name.</description>
 <wire x1="26.298190625" y1="9.718890625" x2="25.68903125" y2="10.32805" width="0.127" layer="16"/>
 <wire x1="25.68903125" y1="10.32805" x2="25.68903125" y2="10.435559375" width="0.127" layer="16"/>
 <wire x1="23.8956" y1="15.1444" x2="23.8956" y2="16.084909375" width="0.127" layer="1"/>
+</signal>
+<signal name="PWM2L">
+<contactref element="PROC" pad="62"/>
 </signal>
 </signals>
 </board>

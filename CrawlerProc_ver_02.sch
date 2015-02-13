@@ -7257,11 +7257,6 @@ Source: www.kingbright.com</description>
 </net>
 <net name="SCK2" class="0">
 <segment>
-<wire x1="99.06" y1="124.46" x2="99.06" y2="127" width="0.1524" layer="91"/>
-<label x="99.06" y="127" size="1.778" layer="95" rot="R90"/>
-<pinref part="PROC" gate="G$1" pin="PWM2L/RE2"/>
-</segment>
-<segment>
 <wire x1="127" y1="187.96" x2="124.46" y2="187.96" width="0.2032" layer="91"/>
 <label x="116.84" y="187.96" size="1.778" layer="95"/>
 <pinref part="U$1" gate="G$1" pin="1"/>
@@ -7349,6 +7344,13 @@ Source: www.kingbright.com</description>
 <pinref part="U5" gate="G$1" pin="SI"/>
 <pinref part="PROC" gate="G$1" pin="SDO2/CN10/RG8"/>
 <label x="60.96" y="91.44" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="PWM2L" class="0">
+<segment>
+<wire x1="99.06" y1="124.46" x2="99.06" y2="127" width="0.1524" layer="91"/>
+<label x="99.06" y="127" size="1.778" layer="95" rot="R90"/>
+<pinref part="PROC" gate="G$1" pin="PWM2L/RE2"/>
 </segment>
 </net>
 </nets>
